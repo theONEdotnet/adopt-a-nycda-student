@@ -1,0 +1,187 @@
+Last login: Wed Jan 18 07:13:06 on console
+John-Rosss-MacBook-Pro:~ jonross$ ls
+AdobeCS6				Music
+AppBusiness				MusicDownloads
+Applications				PG_projects
+Chrome_downloads			Pictures
+Climate Reality				Public
+Creative Cloud Files			Sites
+Creative Cloud Files (archived) (1)	appMobiToolkit.props
+Desktop					capital-weather
+Documents				default.txaPackage
+Downloads				dwhelper
+Downloads 1				event.json
+Dropbox					handler.js
+Google Drive				images
+HTML5-Editor				lib
+Library					railsbridge
+MobileWebDevelopment			serverless.yml
+Movies					silex_server_html
+John-Rosss-MacBook-Pro:~ jonross$ cd desktop
+John-Rosss-MacBook-Pro:desktop jonross$ ls
+90DaysFromNow alias
+Adobe_XD
+Amazon Technologies alias
+AppleWatchApp
+BalsamiqMockups alias
+Bootstrap alias
+Cameron
+Comcast
+FacebookGame alias
+Facebook_Store alias
+Fireworks Recovered
+Framework7-1.5.0
+GoogleMaterialDesign-code.html
+IBM-Watson-Wearable
+IMG_0692.PNG
+JS-Digital-Clock-Assignment.doc
+JonRoss_photo-album alias
+MeditationStudio
+MichelleNaps
+Muse
+Muse purchase
+NYCDA
+PageTransitions
+Pitch_Deck-1.pdf
+ReactJS
+Ruby-on-Rails
+Screen Shot 2016-11-11 at 10.14.07 AM.png
+Screen Shot 2016-12-29 at 2.23.47 PM.png
+Screen Shot 2017-01-14 at 2.38.30 PM.png
+Screen Shot 2017-01-14 at 2.40.02 PM.png
+Screen Shot 2017-01-15 at 9.40.09 PM.png
+Screen Shot 2017-01-16 at 9.36.41 AM.png
+ShopifyStore
+StarWars
+T-Mobile-Bill_Payment.pdf
+Tesla_Model_S alias
+UX-design-examples
+VUI-designer-job_Google.png
+Wacom-Device-Manuals
+Watson app alias
+business_plan_template.doc
+bwn-dark-bg2.jpg
+earth-from-space-at-night-iphone-wallpapers.jpg
+futurism-social-video-producer-job.png
+headshot.png
+iPhoneApp
+material-kit-master
+signature.gif
+solar-hydrogen-KSC
+zipped alias
+John-Rosss-MacBook-Pro:desktop jonross$ cd nycda
+John-Rosss-MacBook-Pro:nycda jonross$ ls
+NYCDA-PDFs		profile-project		zipped
+assignments		profile.doc
+docs			working_documents
+John-Rosss-MacBook-Pro:nycda jonross$ cd assignments
+John-Rosss-MacBook-Pro:assignments jonross$ ls
+adopt-a-nycda-student		javascript-assignments
+assets				profile-project.zip
+audio				ross_terminal-log.txt.zip
+collaborative_project		terminal-log.html
+css				terminal-log.txt
+first-page.html			two-page-newspaper-pg2.html
+fonts				two-page-newspaper.html
+img				video
+John-Rosss-MacBook-Pro:assignments jonross$ cd adopt-a-nycda-student
+John-Rosss-MacBook-Pro:adopt-a-nycda-student jonross$ ls
+adopt-a-nycda-student		adopt-a-nycda-student.zip
+John-Rosss-MacBook-Pro:adopt-a-nycda-student jonross$ cd adopt-a-nycda-student
+John-Rosss-MacBook-Pro:adopt-a-nycda-student jonross$ ls
+README.md				index.html
+aboutOurStudents.html			js
+donation.html				pics
+fonts					stylesheets
+gofundme.png				two-columm-examples_blog-layout.html
+images					videos
+John-Rosss-MacBook-Pro:adopt-a-nycda-student jonross$ git init
+Reinitialized existing Git repository in /Users/jonross/Desktop/NYCDA/assignments/adopt-a-nycda-student/adopt-a-nycda-student/.git/
+John-Rosss-MacBook-Pro:adopt-a-nycda-student jonross$ git push https://github.com/theONEdotnet/adopt-a-nycda-student
+Everything up-to-date
+John-Rosss-MacBook-Pro:adopt-a-nycda-student jonross$ git add . -m "Today's date is Jan 18, 2017"
+error: unknown switch `m'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod <(+/-)x>      override the executable bit of the listed files
+
+John-Rosss-MacBook-Pro:adopt-a-nycda-student jonross$ git add .
+John-Rosss-MacBook-Pro:adopt-a-nycda-student jonross$ git remote add origin https://github.com/theONEdotnet/adopt-a-nycda-student
+fatal: remote origin already exists.
+John-Rosss-MacBook-Pro:adopt-a-nycda-student jonross$ ls
+README.md				gofundme.png				pics
+aboutOurStudents.html			images					stylesheets
+donation.html				index.html				two-columm-examples_blog-layout.html
+fonts					js					videos
+John-Rosss-MacBook-Pro:adopt-a-nycda-student jonross$ git commit -m
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+John-Rosss-MacBook-Pro:adopt-a-nycda-student jonross$ git commit -m https://github.com/theONEdotnet/adopt-a-nycda-student
+[master c50a04d] https://github.com/theONEdotnet/adopt-a-nycda-student
+ 9 files changed, 312 insertions(+), 156 deletions(-)
+ create mode 100644 images/NY-Code-Design-logo.jpg
+ create mode 100644 images/NY-Code-Design-logo.png
+ rewrite index.html (88%)
+ create mode 100644 stylesheets/cover.css
+ create mode 100644 videos/mp4/Sequence_01.mp4
+ create mode 100755 videos/snapshots/Big-Apple.jpg
+ create mode 100755 videos/webm/Big-Apple.webm
+John-Rosss-MacBook-Pro:adopt-a-nycda-student jonross$ 
